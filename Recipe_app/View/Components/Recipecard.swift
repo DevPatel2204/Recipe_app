@@ -8,11 +8,13 @@
 import SwiftUI
 
 struct Recipecard: View {
+    var recipe:Recipe
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        
+        Text(recipe.name)
     }
 }
 
 #Preview {
-    Recipecard()
+    Recipecard(recipe: Recipe.all[0])
 }
