@@ -14,12 +14,12 @@ struct Tabbar: View {
                 .tabItem {
                     Label("Home", systemImage: "house.fill")
                 }
-            CategoriesView()
-                .tabItem {
-                    Label("Categories", systemImage: "square.fill.text.grid.1x2")
-                }
-            
-            NewRecipeView()
+//            CategoriesView()
+//                .tabItem {
+//                    Label("Categories", systemImage: "square.fill.text.grid.1x2")
+//                }
+//            
+            NewRecipe()
                 .tabItem {
                     Label("New Recipe", systemImage: "plus")
                 }
