@@ -36,7 +36,7 @@ extension Recipe {
         Recipe(
         name: "Spaghetti Carbonara",
             
-        image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fcooking.nytimes.com%2Frecipes%2F12965-spaghetti-carbonara&psig=AOvVaw3FwIQbJcib6Xd0GC4Sppnl&ust=1717136070550000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCPDCm77ctIYDFQAAAAAdAAAAABAE",
+      image:"https://s23209.pcdn.co/wp-content/uploads/2014/03/IMG_2622edit.jpg",
             
         description: "Spaghetti Carbonara is a classic Italian pasta dish made with eggs, cheese, bacon or pancetta, and black pepper. It's creamy, rich, and incredibly flavorful.",
             
@@ -54,7 +54,7 @@ extension Recipe {
         Recipe(
         name: "Chicken Tikka Masala",
             
-        image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.indianhealthyrecipes.com%2Fchicken-tikka-masala%2F&psig=AOvVaw220tWrbIMIhCcxu1H7kjky&ust=1717136558369000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNDHxabetIYDFQAAAAAdAAAAABAE",
+        image:"https://s23209.pcdn.co/wp-content/uploads/2019/02/Easy-Chicken-Tikka-MasalaIMG_8253.jpg",
             
         description: ": Chicken Tikka Masala is a popular Indian curry dish consisting of marinated and grilled chicken pieces in a creamy tomato-based sauce. It's mildly spicy and packed with flavor.",
             
@@ -72,7 +72,8 @@ extension Recipe {
         Recipe(
         name: "Caesar Salad",
             
-        image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fnatashaskitchen.com%2Fcaesar-salad-recipe%2F&psig=AOvVaw0te-X9zwkuE2nvCwz-S7oN&ust=1717136846687000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCOCayq_ftIYDFQAAAAAdAAAAABAE",
+        image:"https://s23209.pcdn.co/wp-content/uploads/2023/01/220905_DD_Chx-Caesar-Salad_051.jpg",
+        
         description: "Caesar Salad is a classic salad made with romaine lettuce, croutons, Parmesan cheese, and a creamy Caesar dressing. It's simple, refreshing, and full of flavor.",
         
         ingredients: "1 head romaine lettuce, chopped 1 cup croutons 1/2 cup grated Parmesan cheese Caesar dressing (store-bought or homemade)",
@@ -89,8 +90,7 @@ extension Recipe {
         Recipe(
         name: "Chocolate Chip Cookies",
             
-        image:"https://www.google.com/imgres?q=Chocolate%20Chip%20Cookies&imgurl=https%3A%2F%2Fwww.verybestbaking.com%2Fsites%2Fg%2Ffiles%2Fjgfbjl326%2Ffiles%2Fsrh_recipes%2F4bc5edb86285aadc28069f51d9e98974.jpg&imgrefurl=https%3A%2F%2Fwww.verybestbaking.com%2Ftoll-house%2Frecipes%2Foriginal-nestle-toll-house-chocolate-chip-cookies%2F&docid=uqlQvWhmRMfHtM&tbnid=5pbubRGl74_30M&vet=12ahUKEwji6rq24LSGAxWYkq8BHdXdBsIQM3oECGIQAA..i&w=4500&h=3000&hcb=2&ved=2ahUKEwji6rq24LSGAxWYkq8BHdXdBsIQM3oECGIQAA",
-        
+        image:"https://s23209.pcdn.co/wp-content/uploads/2013/02/IMG_9795-copy.jpg",
         description: "Chocolate Chip Cookies are classic American treats made with butter, sugar, flour, chocolate chips, and vanilla extract. They're soft, chewy, and loaded with gooey chocolate chips.",
         
         ingredients: "1 cup (2 sticks) unsalted butter, softened 3/4 cup granulated sugar 3/4 cup packed brown sugar 2 large eggs 1 teaspoon vanilla extract 2 1/4 cups all-purpose flour 1 teaspoon baking soda 1/2 teaspoon salt 2 cups semisweet chocolate chips",
