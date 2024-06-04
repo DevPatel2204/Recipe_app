@@ -19,7 +19,7 @@ struct Tabbar: View {
 //                    Label("Categories", systemImage: "square.fill.text.grid.1x2")
 //                }
 //            
-            NewRecipe()
+            NewRecipeView()
                 .tabItem {
                     Label("New Recipe", systemImage: "plus")
                 }

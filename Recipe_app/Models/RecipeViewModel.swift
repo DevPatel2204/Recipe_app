@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+class RecipeViewModel:ObservableObject{
+    @Published private(set) var recipe: [Recipe] = []
+    
+    init(){
+        recipe = Recipe.all
+    }
+}

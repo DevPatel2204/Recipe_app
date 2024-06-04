@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2B37D02C0F8CEA0030379E /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2B37CF2C0F8CEA0030379E /* RecipeViewModel.swift */; };
 		2F355A022C0DDFAC00E18ABC /* RecipeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F355A012C0DDFAC00E18ABC /* RecipeList.swift */; };
 		2F355A042C0DEA2B00E18ABC /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F355A032C0DEA2B00E18ABC /* RecipeView.swift */; };
 		2F5688BB2C0E4F0000CC97E4 /* NewRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F5688BA2C0E4F0000CC97E4 /* NewRecipe.swift */; };
@@ -45,6 +46,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F2B37CF2C0F8CEA0030379E /* RecipeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewModel.swift; sourceTree = "<group>"; };
 		2F355A012C0DDFAC00E18ABC /* RecipeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeList.swift; sourceTree = "<group>"; };
 		2F355A032C0DEA2B00E18ABC /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 		2F5688BA2C0E4F0000CC97E4 /* NewRecipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecipe.swift; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 			isa = PBXGroup;
 			children = (
 				2F724B572C07B2F10086FBDE /* RecipeModel.swift */,
+				2F2B37CF2C0F8CEA0030379E /* RecipeViewModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 				2F355A042C0DEA2B00E18ABC /* RecipeView.swift in Sources */,
 				2F355A022C0DDFAC00E18ABC /* RecipeList.swift in Sources */,
 				2FB335722C075F84004A79B8 /* ContentView.swift in Sources */,
+				2F2B37D02C0F8CEA0030379E /* RecipeViewModel.swift in Sources */,
 				2FB335702C075F84004A79B8 /* Recipe_appApp.swift in Sources */,
 				2F724B582C07B2F10086FBDE /* RecipeModel.swift in Sources */,
 				2FBD899A2C0D0083007D5167 /* Recipecard.swift in Sources */,
