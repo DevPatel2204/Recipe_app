@@ -36,7 +36,7 @@ extension Recipe {
         Recipe(
         name: "Spaghetti Carbonara",
             
-      image:"https://s23209.pcdn.co/wp-content/uploads/2014/03/IMG_2622edit.jpg",
+        image:"https://s23209.pcdn.co/wp-content/uploads/2014/03/IMG_2622edit.jpg",
             
         description: "Spaghetti Carbonara is a classic Italian pasta dish made with eggs, cheese, bacon or pancetta, and black pepper. It's creamy, rich, and incredibly flavorful.",
             
@@ -122,5 +122,13 @@ extension Recipe {
         url: "https://www.liquor.com/recipes/long-island-iced-tea/"
         ),
         
+        Recipe(name: "Sev Tamato",
+               image: "https://www.vegrecipesofindia.com/wp-content/uploads/2014/12/sev-tameta-nu-shaak-recipe.jpg",
+               description: "Translating the Gujarati Sev Tameta Nu Shaak in English would simply mean a delicious tomato (tameta) curry preparation with sev (tiny, crispy, fried, spiced gram flour vermicelli). The Gujarati word ‘nu’ means ‘of.’ So, put together, it becomes a curry of tomatoes and sev and thus Sev Tamatar ki Sabji in Hindi. Since the time I had started blogging, I had been getting a lot of requests to post the recipe of this particular Sev Tamatar Sabji. In fact, one of my readers also requested for a dhaba style version of this dish. However, what I have posted here is a simple no onion, no garlic recipe. This is an easy-peasy, no frills curry recipe that gets done in about 20 to 25 minutes. This Sev Tamatar ki Sabji is absolutely brilliant, especially because of the sev that adds heaps of flavor and texture to the dish. If you live outside India, you can easily purchase it from an Indian grocery or Indian sweet shop or can order online as well.",
+               ingredients: "Tomatos Sev and turmeric powder , Red chili powder , Coriander powder ,Cumin powder",
+               directions: " The recipe contains not many ingredients. Basically chopped tomatoes, ginger and green chilies. Tomatoes form the main base of this curry. 2. Heat 1 tablespoon oil in a pan. Add ¼ teaspoon mustard seeds and let them crackle on low heat 3. Then, add ½ teaspoon cumin seeds and sauté for a few seconds or till they change color and splutter 4. Next, add 1 teaspoon finely chopped ginger, ½ teaspoon finely chopped green chilies and a pinch of asafoetida (hing). Stir and sauté on low heat for 10 to 15 seconds or till the raw aroma of ginger goes away.",
+               datepublished: "June 5 , 2024",
+               url: "https://www.vegrecipesofindia.com/sev-tameta-nu-shaak-recipe/"
+              ),
     ]
 }

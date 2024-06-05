@@ -13,4 +13,8 @@ class RecipeViewModel:ObservableObject{
     init(){
         recipe = Recipe.all
     }
+    
+//    func addRecipe(recipe: Recipe){
+//        recipes.append(recipe)
+//    }
 }

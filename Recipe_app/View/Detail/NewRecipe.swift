@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct NewRecipe: View {
+    //@EnvironmentObject var recipeVM:RecipeViewModel
     @State private var name : String = ""
     @State private var Description : String = ""
     @State private var Ingrediants : String = ""
     @State private var Directions : String = ""
     @State private var navigatetorecipe = false
-    
     @Environment(\.dismiss) var dismiss
     var body: some View {
         NavigationView{
@@ -31,8 +31,9 @@ struct NewRecipe: View {
                     TextEditor(text: $Directions)
                 }
             }
+
             .toolbar(content: {
-                ToolbarItem(placement:.navigationBarLeading){
+                ToolbarItem(placement: .navigationBarLeading){
                     Button(action: {
                         dismiss()
                     }, label: {
@@ -41,10 +42,11 @@ struct NewRecipe: View {
                 }
                 ToolbarItem{
                     NavigationLink(isActive: $navigatetorecipe) {
-                        RecipeView(recipe: Recipe.all.sorted{ $0.datepublished > $1.datepublished}[0])
+                        RecipeView(recipe:Recipe.all.sorted{ $0.datepublished > $1.datepublished}[0])
                             .navigationBarBackButtonHidden(true)
                     } label: {
                         Button(action: {
+                            //saveRecipe()
                             navigatetorecipe = true
                         }, label: {
                             Label("Done",systemImage: "checkmark")
@@ -65,6 +67,14 @@ struct NewRecipe: View {
     }
 }
 
+
 #Preview {
     NewRecipe()
+        .environmentObject(RecipeViewModel())
 }
+
+//extension NewRecipeView {
+//    private func saveRecipe(){
+//        recipeVM.addRecipe(recipe: recipe)
+//    }
+//}
