@@ -9,15 +9,14 @@ This is a Recipe app built using Swift and SwiftUI framework. It allows users to
 ## Features
 
 - Browse recipes.
-- Search for specific recipes
-- View recipe details including ingredients and instructions
+- View recipe details including Name , ingredients and Descriptions , Directions
 - Save favorite recipes
-- Manage saved recipes
+- Manage saved recipes(To be implemented)
 - Add New Recipes from the inbuild data Model (For Developer)
 - Add new Recipe from New Recipe Tab for Consumer
-- Add New Recipe(Feature Under development)
 - Browse from Categories (Feature Under development)
-- Account settings and Profile page added (Profile page under development)
+- Account settings
+- Profile page added (Profile page under development)
 
 ## Technologies Used
 - Swift
@@ -27,7 +26,7 @@ This is a Recipe app built using Swift and SwiftUI framework. It allows users to
 - Login and Sign Up page
 - Adding Authentication
 - Connect to FireBase
-- Connect Database to FireStore.
+- Connect Database to FireStore
 
  ## Architecture Used
 - Used MVVM Model for the date flow
