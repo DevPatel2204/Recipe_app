@@ -14,7 +14,6 @@ This is a Recipe app built using Swift and SwiftUI framework. It allows users to
 - Save favorite recipes
 - Manage saved recipes
 - Add New Recipe(Feature not working)
-## Screenshots
 
 ## Technologies Used
 - Swift
